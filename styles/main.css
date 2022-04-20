@@ -1,0 +1,23 @@
+
+.list {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    columns: 300px 2;
+    
+}
+.shop {
+ 
+        border: .5px dotted crimson;
+        padding: .5em;
+        margin: 0.5em;
+        text-align: left;
+        columns: 200px 2;
+        /* justify-content: space-evenly; */
+        flex-direction: column-reverse;
+
+
+}
+.pageHeader {
+text-align: center;
+}
